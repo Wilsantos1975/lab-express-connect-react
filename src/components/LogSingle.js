@@ -1,9 +1,14 @@
-import React from 'react'
 
-function LogSingle() {
+
+
+function LogSingle({log, index}) {
+
+  console.log(index)
   return (
-    <div>
-      <h1>Log Single</h1>
+    <div className="Log">
+      <li>
+      <a href={`/logs/${index}`}>{log.title}</a>
+      </li>
     </div>
   )
 }

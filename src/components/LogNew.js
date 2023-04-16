@@ -2,7 +2,7 @@
 
 function LogNew() {
   return (
-    <div>
+    <div className="LogNew">
       <h1>"Log New"</h1>
     </div>
   )
